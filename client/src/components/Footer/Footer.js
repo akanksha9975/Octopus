@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <footer>
             <div className={styles.footerText}>
-          © 2025 Akanksha  !  From concept to creation... <span> <a href="https://github.com/octopus" target="_blank" rel="noopener noreferrer">OCTOPUS</a></span>
+          © 2025 Akanksha  !  From concept to creation... <span> <a href="https://github.com/akanksha9975/Octopus" target="_blank" rel="noopener noreferrer">OCTOPUS</a></span>
             </div>
             {user && (
             <FabButton />

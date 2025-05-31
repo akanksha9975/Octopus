@@ -57,7 +57,7 @@ export const createProfile = async (req, res) => {
   try {
     const existingUser = await ProfileModel.findOne({ email })
 
-    if(existingUser) return res.status(404).json({ message: "Profile already exist" })
+    if(existingUser) return res.status(404).json({ message: "Profile already exists" })
       await newProfile.save();
 
       res.status(201).json(newProfile );

@@ -63,7 +63,9 @@ const AddClient = ({ setOpen, open, currentId, setCurrentId }) => {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')))
   const dispatch = useDispatch()
   const client = useSelector((state) => currentId ? state.clients.clients.find((c) => c._id === currentId) : null)
-  // eslint-disable-next-line 
+ 
+
+  // snackbar usecase!
   const [openSnackbar, closeSnackbar] = useSnackbar()
 
 

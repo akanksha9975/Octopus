@@ -19,6 +19,7 @@ const authReducer =(state = {authData: null}, action)=> {
                 return {...state, authData: action?.data}
         
         default:
+            //console.log(data)
             return state
     }
 }

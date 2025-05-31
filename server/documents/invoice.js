@@ -122,7 +122,7 @@ img {
           <h4>SALESFORCE</h4>
           <p>xyz@salesforce.com</p>
           <p>+91 123456789</p>
-          <p>xyz street azm</p>
+          <p>xyz street azamgarh</p>
           <p>U.P. India</p>
       </div>
 

@@ -58,7 +58,7 @@ const Dashboard = () => {
    
      useEffect(() => {
         dispatch(getInvoicesByUser({search: user?.result._id || user?.result?.googleId}));
-        // eslint-disable-next-line
+        // next-line
     }, [location, dispatch]);
    
 
