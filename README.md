@@ -71,20 +71,3 @@ Octopus is a full-stack invoicing platform built with the **MERN stack** — **M
 * **MongoDB Atlas** – Cloud-hosted, scalable NoSQL database
 
 ---
-
- ### Install
-``` 
- npm install
-```
-> ### Build
-``` 
- npm run build
-```
-> ### Start
-
-``` 
- npm start
-```
-
----
-
