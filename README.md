@@ -1,61 +1,90 @@
-### [octopus](https://octopus.com/)
-# MERN Stack Invoicing Application
-Built with the MERN stack (MongoDB, Express, React and NodeJS).
+# 🐙 [Octopus](https://octopus.com/)
+
+### MERN Stack Invoicing Application
+
+Octopus is a full-stack invoicing platform built with the **MERN stack** — **MongoDB, Express, React, and Node.js**. Tailored for **freelancers and small businesses**, it helps you effortlessly create, manage, and send **invoices, estimates, receipts, and more** — all from one powerful dashboard.
+
+---
+
+## 🚀 Live Demo & Source Code
+
+🔗 [Live App](   )
+📂 [Source Code](https://github.com/akanksha9975/Octopus)
+
+---
+
+## 📌 Key Features
+
+* 📄 **Generate & Email PDF Invoices** — Easily create and send invoices, receipts, estimates, and bills
+* 🗓️ **Set Due Dates** — Keep track of when payments are expected
+* 🔁 **Auto Status Updates** — Invoice status changes automatically when payments are made
+* 🧾 **Payment History** — View complete payment logs including date, method, and notes
+* 💸 **Partial Payments** — Record and track partial payments on invoices
+* 📊 **Insightful Dashboard** — Monitor key metrics like total paid, pending, and recent transactions
+* 👥 **Multi-User Support** — Register and manage multiple users
+* 🔐 **Secure Authentication** — Login via JWT or Google Sign-In
+
+---
 
 
+ ### Install
+``` 
+ npm install
+```
+> ### Build
+``` 
+ npm run build
+```
+> ### Start
 
-## Introduction
-Octopus is a full-stack invoicing application built using the MERN stack (MongoDB, Express, React, Node.js), designed for freelancers and small businesses. It allows you to create and send professional invoices, receipts, estimates, and quotes to clients effortlessly.
+``` 
+ npm start
+```
 
+---
 
-## Key Features
+## 🛠️ Technologies Used
 
+### 💻 Client (Frontend)
 
+* **React.js** – Fast and modular UI library
+* **Redux** – Centralized state management
+* **React Router DOM** – Seamless client-side routing
+* **Axios** – For handling HTTP requests
+* **Material UI + CSS Modules** – Clean, responsive UI design
+* **React Simple Snackbar** – Notification handling
+* **Cloudinary** – Business logo upload and management
+* **ApexCharts** – Beautiful charts for payment analytics
+* **React Google Login** – Google OAuth integration
 
-1.Generate and send/download PDF versions of all documents
+### 🧪 Server (Backend)
 
-2.Set due dates for invoices
+* **Express.js** – REST API development
+* **Mongoose** – MongoDB object modeling
+* **JWT** – Secure token-based authentication
+* **bcryptjs** – Password hashing for security
+* **html-pdf** – Generate professional PDF invoices
+* **Nodemailer** – Send invoices directly via email
 
-3.Automatic status updates when a payment is recorded
+### 🗃️ Database
 
-4.Detailed payment history for each invoice, including payment date, method, and notes
+* **MongoDB Atlas** – Cloud-hosted, scalable NoSQL database
 
-5.Support for partial payments
+---
 
-6.Clean, user-friendly admin dashboard showing key stats: total received, pending, recent payments, paid, unpaid, and partially paid invoices
+ ### Install
+``` 
+ npm install
+```
+> ### Build
+``` 
+ npm run build
+```
+> ### Start
 
-7.Support for multiple user registrations
+``` 
+ npm start
+```
 
-8.Authentication via JSON Web Tokens (JWT) and Google Sign-In
-
-
-
-## Technologies used
-
-This project was created using the following technologies.
-
-#### Client
-
-- React JS
-- Redux (for managing application state)
-- React-router-dom (To handle routing)
-- Axios (for making api calls)
-- Material UI & CSS Module (for User Interface)
-- React simple Snackbar (To display success/error notifications)
-- Cloudinary (to allows users to upload their logo)
-- Apex Charts (to display payment history)
-- React-google-login (To enable authentication using Google)
-
-#### Server
-
-- Express
-- Mongoose
-- JWT (For authentication)
-- bcryptjs (for data encryption)
-- html-pdf (for generating invoice PDFs)
-- Nodemailer (for sending invoice via email)
-
-
-#### Database
-MongoDB (MongoDB Atlas)
+---
 
