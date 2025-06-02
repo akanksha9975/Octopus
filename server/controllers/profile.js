@@ -5,6 +5,9 @@ import ProfileModel from '../models/ProfileModel.js';
 
 const router = express.Router();
 
+
+
+
 export const getProfiles = async (req, res) => { 
   try {
       const allProfiles = await ProfileModel.find().sort({ _id: -1 });
@@ -14,6 +17,10 @@ export const getProfiles = async (req, res) => {
       res.status(404).json({ message: error.message });
   }
 }
+
+
+
+
 
 export const getProfile = async (req, res) => { 
   const { id } = req.params;
@@ -26,6 +33,11 @@ export const getProfile = async (req, res) => {
       res.status(404).json({ message: error.message });
   }
 }
+
+
+
+
+
 
 export const createProfile = async (req, res) => {
   const {
@@ -103,6 +115,8 @@ export const getProfilesBySearch = async (req, res) => {
 }
 
 
+
+
 export const updateProfile = async (req, res) => {
   const { id: _id } = req.params
   const profile = req.body
@@ -113,6 +127,8 @@ export const updateProfile = async (req, res) => {
 
   res.json(updatedProfile)
 }
+
+
 
 
   export const deleteProfile = async (req, res) => {

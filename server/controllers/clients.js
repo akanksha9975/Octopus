@@ -36,6 +36,8 @@ export const getClients = async (req, res) => {
     }
 }
 
+
+
 export const createClient = async (req, res) => {
 
     const client = req.body
