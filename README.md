@@ -1,4 +1,4 @@
-# 🐙 [Octopus](https://octopus.com/)
+# 🐙 [Octopus](https://github.com/akanksha9975/Octopus)
 
 ### MERN Stack Invoicing Application
 

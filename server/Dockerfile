@@ -1,7 +1,7 @@
 FROM node:14-alpine AS builder
 ENV NODE_ENV production
 
-# RUN mkdir -p /usr/src/app
+ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 COPY server/package.json .

@@ -49,7 +49,7 @@ table tr:nth-child(even){background-color: #f8f8f8;}
 table tr:hover {background-color: rgb(243, 243, 243);}
 
 table th {
-  padding-top: 12px;
+  padding-top: 11.9px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #FFFFFF;
@@ -111,6 +111,11 @@ img {
 </style>
 </head>
 <body>
+
+
+
+
+
 <section  class="header">
         <div>
            <img src="https://i.postimg.cc/8PyXvBpC/Salesforce-com-logo-svg.png" />
@@ -118,6 +123,10 @@ img {
 </section>
 <section class="address">
     <div class="contact">
+
+
+
+
           <div>
           <h4>SALESFORCE</h4>
           <p>xyz@salesforce.com</p>
@@ -125,6 +134,9 @@ img {
           <p>xyz street azamgarh</p>
           <p>U.P. India</p>
       </div>
+
+
+
 
       <div>
           <p class="title">Bill to:</p>

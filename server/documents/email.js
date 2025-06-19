@@ -148,10 +148,10 @@ hr {
         </div>
         
       <div class"footer">
-          <a href="https://octopus.com">
+          <a href="https://github.com/akanksha9975/Octopus">
         </a>
       </div>
-    <p style="text-align: center">Make beautiful invoice for free at octopus.com</p>
+    <p style="text-align: center">Make beautiful invoice for free at Octopus.com</p>
     </div>
     </body>
 </html>`
