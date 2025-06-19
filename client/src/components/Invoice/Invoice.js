@@ -265,6 +265,8 @@ const Invoice = () => {
       }
     
 
+
+
     return (
     <div className={styles.invoiceLayout}>
         <form onSubmit={handleSubmit} className="mu-form">
@@ -273,7 +275,7 @@ const Invoice = () => {
                 
                 <Grid container justifyContent="space-between" >
                     <Grid item>
-                        {/* <Avatar alt="Logo" variant='square' src="" className={classes.large} /> */}
+                       
                     </Grid>
                     <Grid item>
                         <InvoiceType type={type} setType={setType} />

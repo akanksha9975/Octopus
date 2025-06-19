@@ -8,7 +8,6 @@ Octopus is a full-stack invoicing platform built with the **MERN stack** — **M
 
 ## 🚀 Live Demo & Source Code
 
-🔗 [Live App](   )
 📂 [Source Code](https://github.com/akanksha9975/Octopus)
 
 ---
@@ -33,12 +32,13 @@ Octopus is a full-stack invoicing platform built with the **MERN stack** — **M
 ```
 > ### Build
 ``` 
- npm run build
+ npm run buil
 ```
 > ### Start
 
 ``` 
- npm start
+ npm start for frontend 
+ node index.js for backend
 ```
 
 ---
